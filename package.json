@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-project",
+  "name": "solidity-boilerplate",
   "scripts": {
     "accounts": "npx hardhat accounts",
     "test": "npx hardhat test",
