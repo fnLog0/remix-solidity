@@ -5,7 +5,7 @@
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",
     "h-node": "npx hardhat node",
-    "deploy":"npx hardhat run scripts --network localhost",
+    "deploy": "npx hardhat run scripts --network localhost",
     "prettier": "prettier --write 'contracts/**/*.sol'",
     "lint": "prettier --list-different 'contracts/**/*.sol'"
   },
@@ -20,5 +20,9 @@
     "prettier-plugin-solidity": "^1.0.0-beta.13",
     "solhint": "^3.3.6",
     "solhint-plugin-prettier": "^0.0.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "bignumber.js": "^9.0.1"
   }
 }
